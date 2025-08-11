@@ -1,0 +1,96 @@
+body{
+    background-color: #050020;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 9px #00000041;
+}
+
+h2{
+    font-size: 1.25rem;
+    margin-right: 4px;
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 8px #00000041;
+}
+
+.text{
+    color: #e0e0eb;
+}
+
+.button{
+    color: #cacadd;
+}
+
+header, main, footer{
+    background-color: darkslateblue;
+    min-height: 100px;
+    width: 92%;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas: 
+    "dark light"
+    "pink orange"
+    "rand rand";
+}
+
+#btnDarkTheme{
+    grid-area: "dark";
+}
+
+#btnLightTheme{
+    grid-area: "light";
+}
+
+#btnPinkTheme{
+    grid-area: "pink";
+}
+
+#btnOrangeTheme{
+    grid-area: "orange";
+}
+
+#btnRandomTheme{
+    grid-area: "rand";
+}
+
+#img, #form, #xp{
+    background-color: blue;
+    width: 86%;
+    margin: 10px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+}
+
+p{
+    font-family: Geneva;
+    font-size: 1rem;
+}
+
+textarea{
+    resize: none;
+}
+
+table{
+    height: auto;
+    width: auto;
+}
+
+th{
+    height: 30%;
+}
