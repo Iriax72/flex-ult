@@ -85,7 +85,11 @@ p{
     margin-right: 5px;
 }
 
-textarea{ resize: none; }
+textarea{
+    height: 100px;
+    width: 100px;
+    resize: none; 
+}
 
 table{
     height: auto;
