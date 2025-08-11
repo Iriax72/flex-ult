@@ -1,4 +1,7 @@
 // variables
+const orange = "#fb6710"
+const darkColor = "#202050"
+
 const btnRand = document.getElementById("btnRandomTheme");
 const btnDark = document.getElementById("btnDarkTheme");
 const btnLight = document.getElementById("btnLightTheme");
@@ -6,26 +9,36 @@ const btnPink = document.getElementById("btnPinkTheme");
 const btnOrange = document.getElementById("btnOrangeTheme");
 
 const body = document.getElementById("body");
+const header = document.getElementById("header")
+const main = document.getElementById("main")
+const footer = document.getElementById("footer");
+const siteParts = [header, main, footer]
 const texts = document.getElementsByClassName("text");
 const buttons = document.getElementsByClassName("btn");
 
 const bgColor = {
-    "dark": "#050020",
-    "light": "#ffffff",
-    "pink": "#fd01ed",
-    "orange": "#8918de"
+    "dark": darkColor,
+    "light": "#d0d0a0",
+    "pink": "#dc30ef",
+    "orange": "#502050"
+}
+const siteColor = {
+    "dark": "darkblue",
+    "light": darkColor,
+    "pink": darkColor,
+    "orange": orange
 }
 const textColor = {
     "dark": "#e0e0eb",
     "light": "#000000",
     "pink": "#cc00ff",
-    "orange": "#fb6710"
+    "orange": orange
 }
 const buttonsColor = {
     "dark": "#cacadd",
     "light": "#8d8d8d",
     "pink": "#e236df",
-    "orange": "#fb6710"
+    "orange": orange
 }
 
 let currentTheme = "dark";
@@ -56,6 +69,10 @@ function themeApply(theme){
     buttons.forEach(element => {
         element.style.backgroundColor = buttonsColor[theme];
         element.style.color = textColor[theme]
+    })
+
+    siteParts.forEach(element => {
+        element.style.backgroundColor = siteColor[theme];
     })
 }
 
