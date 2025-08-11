@@ -79,6 +79,10 @@ header, main, footer{
 #img3{ grid-area: "img3"; }
 #table{ grid-area: "tab"; }
 
+#img1, #img2, #img3{
+    max-width: 95%;
+}
+
 p{
     font-family: Geneva;
     font-size: 1rem;
