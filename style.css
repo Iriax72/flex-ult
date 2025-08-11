@@ -1,6 +1,4 @@
-body{
-    background-color: #050020;
-}
+body{ background-color: #050020; }
 
 nav ul{
     list-style-type: none;
@@ -22,13 +20,9 @@ h2{
     text-shadow: 0px 1px 8px #00000041;
 }
 
-.text{
-    color: #e0e0eb;
-}
+.text{ color: #e0e0eb; }
 
-.button{
-    color: #cacadd;
-}
+.button{ color: #cacadd; }
 
 header, main, footer{
     background-color: darkslateblue;
@@ -49,25 +43,11 @@ header, main, footer{
     "rand rand";
 }
 
-#btnDarkTheme{
-    grid-area: "dark";
-}
-
-#btnLightTheme{
-    grid-area: "light";
-}
-
-#btnPinkTheme{
-    grid-area: "pink";
-}
-
-#btnOrangeTheme{
-    grid-area: "orange";
-}
-
-#btnRandomTheme{
-    grid-area: "rand";
-}
+#btnDarkTheme{ grid-area: "dark"; }
+#btnLightTheme{ grid-area: "light"; }
+#btnPinkTheme{ grid-area: "pink"; }
+#btnOrangeTheme{ grid-area: "orange"; }
+#btnRandomTheme{ grid-area: "rand"; }
 
 #theme, #img, #form, #xp{
     background-color: blue;
@@ -87,6 +67,15 @@ header, main, footer{
     "img3 p4"
 }
 
+#p1{ grid-area: "p1"; }
+#p2{ grid-area: "p2"; }
+#p3{ grid-area: "p3"; }
+#p4{ grid-area: "p4"; }
+#img1{ grid-area: "img1"; }
+#img2{ grid-area: "img2"; }
+#img3{ grid-area: "img3"; }
+#table{ grid-area: "tab"; }
+
 p{
     font-family: Geneva;
     font-size: 1rem;
@@ -94,15 +83,11 @@ p{
     margin-right: 5px;
 }
 
-textarea{
-    resize: none;
-}
+textarea{ resize: none; }
 
 table{
     height: auto;
     width: auto;
 }
 
-th{
-    height: 30%;
-}
+th{ height: 30%; }
