@@ -68,12 +68,14 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
+    "h2 h2"
     "p1 img1"
     "tab p2"
     "p3 img2"
     "img3 p4"
 }
 
+#h2_img{ grid-area: "h2"; }
 #p1{ grid-area: "p1"; }
 #p2{ grid-area: "p2"; }
 #p3{ grid-area: "p3"; }
