@@ -50,10 +50,10 @@ header, main, footer{
 #btnRandomTheme{ grid-area: "rand"; }
 
 #theme, #img, #form, #xp{
-    background-color: blue;
+    background-color: darkblue;
     width: 86%;
     margin: 10px;
-    border: 2px solid darkblue;
+    border: 2px solid blue;
     border-radius: 5px;
 }
 
