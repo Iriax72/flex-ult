@@ -69,12 +69,22 @@ header, main, footer{
     grid-area: "rand";
 }
 
-#img, #form, #xp{
+#theme, #img, #form, #xp{
     background-color: blue;
     width: 86%;
     margin: 10px;
     border: 2px solid darkblue;
     border-radius: 5px;
+}
+
+#img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "p1 img1"
+    "tab p2"
+    "p3 img2"
+    "img3 p4"
 }
 
 p{
