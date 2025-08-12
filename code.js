@@ -10,7 +10,7 @@ const btnLight = document.getElementById("btnLightTheme");
 const btnPink = document.getElementById("btnPinkTheme");
 const btnOrange = document.getElementById("btnOrangeTheme");
 
-const body = document.getElementById("body");
+const body = document.body;
 const header = document.getElementById("header")
 const main = document.getElementById("main")
 const footer = document.getElementById("footer");
