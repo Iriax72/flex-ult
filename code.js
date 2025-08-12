@@ -1,3 +1,4 @@
+console.log("Début du script")
 // variables
 const orange = "#fb6710"
 const darkColor = "#202050"
@@ -9,6 +10,7 @@ const btnDark = document.getElementById("btnDarkTheme");
 const btnLight = document.getElementById("btnLightTheme");
 const btnPink = document.getElementById("btnPinkTheme");
 const btnOrange = document.getElementById("btnOrangeTheme");
+console.log("btnDark: ", btnDark)
 
 const body = document.body;
 const header = document.getElementById("header")
@@ -66,6 +68,7 @@ function randTheme(){
 function setTheme(theme){
     currentTheme = theme;
     themeApply(currentTheme);
+    console.log("un setTheme")
 }
 
 function themeApply(theme){
@@ -91,6 +94,7 @@ function themeApply(theme){
 
 // setup
 setTheme("dark");
+console.log("setTheme initial lancé")
 
 // code
 btnRand.addEventListener("click", () => setTheme(randTheme()));
