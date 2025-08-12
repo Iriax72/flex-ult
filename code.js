@@ -93,8 +93,8 @@ function themeApply(theme){
 setTheme("dark");
 
 // code
-btnRand.addEventListener("click", setTheme(randTheme()));
-btnDark.addEventListener("click", setTheme("dark"));
-btnLight.addEventListener("click", setTheme("light"));
-btnPink.addEventListener("click", setTheme("pink"));
-btnOrange.addEventListener("click", setTheme("orange"));
+btnRand.addEventListener("click", () => setTheme(randTheme()));
+btnDark.addEventListener("click", () => setTheme("dark"));
+btnLight.addEventListener("click", () => setTheme("light"));
+btnPink.addEventListener("click", () => setTheme("pink"));
+btnOrange.addEventListener("click", () => setTheme("orange"));
