@@ -24,6 +24,7 @@ h2{
 
 .button{
     color: #cacadd;
+    border: 2px solid "black";
     border-radius: 2px;
     margin: 3px;
 }
