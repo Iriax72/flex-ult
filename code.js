@@ -57,7 +57,7 @@ const themes = ["dark", "light", "pink", "orange"];
 
 // fonctions
 function randInt(min, max){
-    return Math.round(Math.random * (max - min) + min);
+    return Math.round(Math.random() * (max - min) + min);
 }
 
 function randTheme(){
@@ -67,7 +67,7 @@ function randTheme(){
 
 function setTheme(theme){
     currentTheme = theme;
-    themeApply(currentTheme);
+    themeApply(theme);
     console.log("un setTheme")
 }
 
