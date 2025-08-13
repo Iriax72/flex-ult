@@ -22,7 +22,11 @@ h2{
 
 .text{ color: #e0e0eb; }
 
-.button{ color: #cacadd; }
+.button{
+    color: #cacadd;
+    border-radius: 2px;
+    margin: 3px;
+}
 
 header, main, footer{
     background-color: #202050;
