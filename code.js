@@ -1,3 +1,5 @@
+"use strict";
+
 console.log("Début du script")
 // variables
 const orange = "#fb6710"
