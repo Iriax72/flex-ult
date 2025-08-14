@@ -1,5 +1,5 @@
 "use strict";
-
+alert("script chargé")
 console.log("Début du script")
 // variables
 const orange = "#fb6710"
