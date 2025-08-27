@@ -46,7 +46,7 @@ main{
     justify-content: center;
 }
 
-#buttons{
+#buttonsContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -62,7 +62,7 @@ main{
 #btnOrangeTheme{ grid-area: "orange"; }
 #btnRandomTheme{ grid-area: "rand"; }
 
-#theme, #img, #form, #xp{
+.section{
     background-color: darkblue;
     width: 96%;
     margin: 10px;
@@ -70,7 +70,7 @@ main{
     border-radius: 5px;
 }
 
-#img{
+#imgContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -91,7 +91,7 @@ main{
 #img3{ grid-area: "img3"; }
 #table{ grid-area: "tab"; }
 
-#img1, #img2, #img3{
+.img{
     max-width: 95%;
 }
 

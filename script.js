@@ -1,26 +1,25 @@
 "use strict";
-alert("script chargé")
 console.log("Début du script")
+
 // variables
 const orange = "#fb6710"
 const darkColor = "#202050"
 const violet = "#502050"
 const pink = "#dc30ef"
 
-const btnRand = document.getElementById("btnRandomTheme");
-const btnDark = document.getElementById("btnDarkTheme");
-const btnLight = document.getElementById("btnLightTheme");
-const btnPink = document.getElementById("btnPinkTheme");
-const btnOrange = document.getElementById("btnOrangeTheme");
+const btnRand = document.querySelector("#btnRandomTheme");
+const btnDark = document.querySelector("#btnDarkTheme");
+const btnLight = document.querySelector("#btnLightTheme");
+const btnPink = document.querySelector("#btnPinkTheme");
+const btnOrange = document.querySelector("#btnOrangeTheme");
 
 const body = document.body;
-const header = document.getElementById("header")
-const main = document.getElementById("main")
-const footer = document.getElementById("footer");
-const siteParts = [header, main, footer]
-const sections = document.getElementsByTagName("section")
-const texts = document.getElementsByClassName("text");
-const buttons = document.getElementsByClassName("btn");
+const main = document.querySelector("#main");
+
+const bodyChildren = body.children;
+const sections = main.children;
+const texts = document.querySelectorAll(".text");
+const buttons = document.querySelectorAll(".btn");
 
 const bgColor = {
     "dark": darkColor,
@@ -83,7 +82,7 @@ function themeApply(theme){
         element.style.color = textColor[theme]
     })
 
-    siteParts.forEach(element => {
+    bodyChildren.forEach(element => {
         element.style.backgroundColor = siteColor[theme];
     })
 

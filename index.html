@@ -30,10 +30,10 @@
         <p class="text">Bonjour! J'ai crée ce site tout seul dans l'objectif principal de tester mes capacités, d'apprenrre le HTML, le CSS et le JavaScript. Je vous invite à en prendre integralement connaissance (c'est pas très long). Il y a plusieur formulaires et sondages tout au long du site, vous n'êtes pas obligé d'y répondre mais votre avis m'intéresse. <strong>Merci!</strong></p>
     </header>
     <main id="main">
-        <section id="themeSection" tag="section">
+        <section id="themeSection" class="section">
             <h2 class="text">Le Thème !</h2>
             <p class="text">Vous pouvez ici changer le thème du site</p>
-            <div id="buttons">
+            <div id="buttonsContainer">
                 <button id="btnDarkTheme" class="btn" type="button">Sombre</button>
                 <button id="btnLightTheme" class="btn" type="button">Lumineux</button>            
                 <button id="btnPinkTheme" class="btn" type="button">Rose</button>
@@ -41,10 +41,10 @@
                 <button id="btnRandomTheme" class="btn" type="button">Changer aléatoirement le thème</button>
             </div>
         </section>
-        <section id="img" tag="section">
+        <section id="imgContainer" class="section">
             <h2 class="text" id="h2_img">Voici quelques jolies images</h2>
             <p class="text" id="p1">Magnifique image:</p>
-            <img src="./assets/lac.png" alt="image d'un magnifique lac" id="img1">
+            <img src="./assets/lac.png" alt="image d'un magnifique lac" id="img1" class="img">
             <p class="text id=p2">Ceci n'est pas une image mais un tableau. Son seul but est de développer mes compétances en création de site. Si vous avez une idée de ce que je peux mettre dedant, veuillez me le faire savoir en mettant un commentaire ci-dessous.</p>
             <div id="table">
                 <table border="4" cellpading="10" cellspacing="4" style="text-align: center">
@@ -78,11 +78,11 @@
                 <textarea placeholder="votre message..."></textarea>
             </div>
             <p class="text" id="p3">Paysage de montagne:</p>
-            <img src="./assets/paysage.png" alt="image d'un beau paysage" id="img2">
+            <img src="./assets/paysage.png" alt="image d'un beau paysage" id="img2" class="img">
             <p class="text" id="p4">Splendide rivière</p>
-            <img src="./assets/riviere.png" alt="belle image d'une rivière" id="img3">
+            <img src="./assets/riviere.png" alt="belle image d'une rivière" id="img3" class="img">
         </section>
-        <section id="form" tag="section">
+        <section id="form" class="section">
             <h2 class="text">Formulaire</h2>
             <form action="">
                 <label for="name">Nom</label>
@@ -101,7 +101,7 @@
                 <input type="submit" value="valider le formulaire">
             </form>
         </section>
-        <section id="xp" tag="section">
+        <section id="xp" class="section">
             <h2 class="text">Expérience</h2>
             <p class="text">Lors de cette expérience visant à aider à la compréhension du cerveau humain, nous vous demanderont de choisir entre «90%» et «10%». Il y a cependant une règle: vous devez choisir de ma ière à ce que 90% des participants ait choisi «90%» et 10% des participants ait choisi «10%», et ce sans connaitre les choix des autres participants. Réfléchissez bien avant d'envoyer votre réponse. Les résultat de l'expérience seront publié sur ce site même.</p>
             <form action="">
